@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img class="banner-image" src="../assets/oil-protobadge.png" width="330px">
+    <HelloWorld msg="Welcome 👋"/>
   </div>
 </template>
 
@@ -16,3 +16,9 @@ export default {
   },
 };
 </script>
+<style scoped>
+.banner-image {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+</style>
