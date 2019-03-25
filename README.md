@@ -1,2 +1,2 @@
 # vue-app-scaffold
-A basic node application
+A basic vue framework instance setup and ready to run, in an openshift pipeline.
