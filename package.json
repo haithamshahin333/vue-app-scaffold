@@ -7,7 +7,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "sonar-scanner": "node_modules/sonarqube-scanner/dist/bin/sonar-scanner"
   },
   "dependencies": {
     "register-service-worker": "^1.6.2",
@@ -32,6 +33,7 @@
     "lint-staged": "^8.1.4",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
+    "sonarqube-scanner": "^2.4.0",
     "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
