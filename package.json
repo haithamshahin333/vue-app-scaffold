@@ -61,6 +61,13 @@
     "not ie <= 8"
   ],
   "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{js,vue,json,jsx}",
+      "!src/**/*.test.{js,jsx}",
+      "!<rootDir>/node_modules/"
+    ],
+    "coverageDirectory": "./reports/coverage",
     "moduleFileExtensions": [
       "js",
       "jsx",
