@@ -4,6 +4,7 @@ node_modules
 /dist
 
 /tests/e2e/reports/
+test-report.xml
 selenium-debug.log
 
 # local env files
