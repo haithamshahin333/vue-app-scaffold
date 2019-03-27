@@ -15,15 +15,6 @@ export default {
     HelloWorld,
   },
 };
-function foo(a) { // Noncompliant
-  const b = 12;
-  if (a) {
-    return b;
-  }
-  return b;
-}
-
-
 
 </script>
 <style scoped>
