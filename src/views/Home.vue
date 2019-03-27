@@ -15,6 +15,7 @@ export default {
     HelloWorld,
   },
 };
+
 </script>
 <style scoped>
 .banner-image {
