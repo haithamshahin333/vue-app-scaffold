@@ -36,6 +36,7 @@ module.exports = deepmerge(
             args: [
               '--no-sandbox',
               '--headless',
+              '--proxy-server=http://localhost:8080'
             ],
           },
         },
