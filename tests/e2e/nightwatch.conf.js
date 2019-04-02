@@ -4,7 +4,7 @@ const deepmerge = require('deepmerge');
 
 const userOptions = JSON.parse(process.env.VUE_NIGHTWATCH_USER_OPTIONS || '{}');
 
-const testingUrl = 'http://zap-21:8080';
+const zapProxyUrl = 'http://ZAP_SERVICE_TO_BE_SUBSTITUTED:8080';
 
 module.exports = deepmerge(
   {
@@ -38,7 +38,7 @@ module.exports = deepmerge(
             args: [
               '--no-sandbox',
               '--headless',
-              '--proxy-server=' + testingUrl
+              '--proxy-server=' + zapProxyUrl
             ],
           },
         },
