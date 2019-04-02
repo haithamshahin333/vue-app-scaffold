@@ -4,6 +4,8 @@ const deepmerge = require('deepmerge');
 
 const userOptions = JSON.parse(process.env.VUE_NIGHTWATCH_USER_OPTIONS || '{}');
 
+const testingUrl = 'http://zap-1:8080';
+
 module.exports = deepmerge(
   {
     src_folders: ['tests/e2e/specs'],
@@ -36,7 +38,7 @@ module.exports = deepmerge(
             args: [
               '--no-sandbox',
               '--headless',
-              '--proxy-server=http://localhost:8080'
+              '--proxy-server=' + testingUrl
             ],
           },
         },
